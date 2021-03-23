@@ -122,8 +122,6 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
-  align-items: center;
-  justify-content: center;
 }
 .sidebar-container {
   width: 20vw;
@@ -236,6 +234,12 @@ img {
   }
   .project-cards {
     flex-direction: column;
+  }
+  .section {
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .sidebar {
     transform: translateX(-100%);
