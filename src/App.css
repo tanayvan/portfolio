@@ -122,6 +122,8 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
+  align-items: center;
+  justify-content: center;
 }
 .sidebar-container {
   width: 20vw;
